@@ -63,11 +63,51 @@
     { "gif": "/assets/music-bear.gif", "text": "Live singing performances… just for you 🎶😉" }
   ],
   "songs": [
-    { "id": 1, "title": "Evare", "duration": "4:12", "album": "Premam", "artist": "Vijay Yesudas", "cover": "/album-covers/premam.jpg", "audio": "/songs/Evare.mp3" },
-    { "id": 2, "title": "Gaaju Bomma", "duration": "3:55", "album": "Hi Nanna", "artist": "Hesham Abdul Wahab", "cover": "/album-covers/gaaju-bomma.jpg", "audio": "/songs/Gaaju-Bomma.mp3" },
-    { "id": 3, "title": "O Seliya", "duration": "4:06", "album": "Premikula Roju", "artist": "Unnikrishnan", "cover": "/album-covers/o-seliya.jpg", "audio": "/songs/O-Seliya.mp3" },
-    { "id": 4, "title": "Sundari", "duration": "4:18", "album": "Thalapathi", "artist": "Ilaiyaraaja", "cover": "/album-covers/thalapathi.jpg", "audio": "/songs/Sundari.mp3" },
-    { "id": 5, "title": "Nenu Nuvvantu", "duration": "4:48", "album": "Orange", "artist": "Naresh Iyer", "cover": "/album-covers/orange.jpg", "audio": "/songs/Nenu-Nuvvantu.mp3" }
+    {
+      "id": 1,
+      "title": "Evare",
+      "duration": "4:12",
+      "album": "Premam",
+      "artist": "Vijay Yesudas",
+      "cover": "/assets/album-covers/premam.jpg",
+      "audio": "/songs/Evare.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Gaaju Bomma",
+      "duration": "3:55",
+      "album": "Hi Nanna",
+      "artist": "Hesham Abdul Wahab",
+      "cover": "/assets/album-covers/gaaju-bomma.jpg",
+      "audio": "/songs/Gaaju-Bomma.mp3"
+    },
+    {
+      "id": 3,
+      "title": "O Seliya",
+      "duration": "4:06",
+      "album": "Premikula Roju",
+      "artist": "Unnikrishnan",
+      "cover": "/assets/album-covers/o-seliya.jpg",
+      "audio": "/songs/O-Seliya.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Sundari",
+      "duration": "4:18",
+      "album": "Thalapathi",
+      "artist": "Ilaiyaraaja",
+      "cover": "/assets/album-covers/thalapathi.jpg",
+      "audio": "/songs/Sundari.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Nenu Nuvvantu",
+      "duration": "4:48",
+      "album": "Orange",
+      "artist": "Naresh Iyer",
+      "cover": "/assets/album-covers/orange.jpg",
+      "audio": "/songs/Nenu-Nuvvantu.mp3"
+    }
   ],
   "letter": {
     "title": "My Dearest BUJJIII💗,",
