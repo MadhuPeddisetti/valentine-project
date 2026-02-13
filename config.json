@@ -25,131 +25,49 @@
     "prosConsSubtitle": "Nothing!!!!"
   },
   "media": {
-    "mainBearGif": "/src/assets/cute-bear.gif",
-    "musicBearGif": "/src/assets/music-bear.gif",
-    "comfortBearGif": "/src/assets/comfort-bear.gif",
-    "kissBearGif": "/src/assets/kiss-bears.gif",
-    "photoBearGif": "/src/assets/photo-bear.gif",
-    "loveYouBearGif": "/src/assets/love-you-bear.gif",
-    "childGif": "/src/assets/child.gif",
-    "roseBearGif": "/src/assets/rose-bear.gif",
-    "cookBearGif": "/src/assets/cook-bear.gif",
-    "kissSingleBearGif": "/src/assets/kiss-bear.gif",
-    "leftButton": "/src/assets/left-button.png",
-    "rightButton": "/src/assets/right-button.png",
+    "mainBearGif": "/assets/cute-bear.gif",
+    "musicBearGif": "/assets/music-bear.gif",
+    "comfortBearGif": "/assets/comfort-bear.gif",
+    "kissBearGif": "/assets/kiss-bears.gif",
+    "photoBearGif": "/assets/photo-bear.gif",
+    "loveYouBearGif": "/assets/love-you-bear.gif",
+    "childGif": "/assets/child.gif",
+    "roseBearGif": "/assets/rose-bear.gif",
+    "cookBearGif": "/assets/cook-bear.gif",
+    "kissSingleBearGif": "/assets/kiss-bear.gif",
+    "leftButton": "/assets/left-button.png",
+    "rightButton": "/assets/right-button.png",
     "envelopeSeal": "❤️"
   },
   "gifts": {
-    "gift1": "/src/assets/gift/gift1.jpg",
-    "gift2": "/src/assets/gift/gift2.jpg", 
-    "gift3": "/src/assets/gift/gift3.jpg"
+    "gift1": "/assets/gift/gift1.jpg",
+    "gift2": "/assets/gift/gift2.jpg",
+    "gift3": "/assets/gift/gift3.jpg"
   },
-"couplePhotos": [
-  {
-    "image": "/src/assets/couple_photo/couple_photo_1.jpg",
-    "caption": "Our first special moment together"
-  },
-  {
-    "image": "/src/assets/couple_photo/couple_photo_2.jpg",
-    "caption": "Our second most fav pic"
-  },
-  {
-    "image": "/src/assets/couple_photo/couple_photo_3.jpg",
-    "caption": "Our lovable moments"
-  },
-  {
-    "image": "/src/assets/couple_photo/couple_photo_4.jpg",
-    "caption": "When you made me smile like this"
-  },
-  {
-    "image": "/src/assets/couple_photo/couple_photo_5.jpg",
-    "caption": "Spent a Day like Life Partners"
-  },
-  {
-    "image": "/src/assets/couple_photo/couple_photo_6.jpg",
-    "caption": "Your comforting presence"
-  },
-  {
-    "image": "/src/assets/couple_photo/couple_photo_7.jpg",
-    "caption": "The Beach Cuddles"
-  },
-  {
-    "image": "/src/assets/couple_photo/couple_photo_8.jpg",
-    "caption": "Recreated stuff with the same Barii"
-  }
+  "couplePhotos": [
+    { "image": "/assets/couple_photo/couple_photo_1.jpg", "caption": "Our first special moment together" },
+    { "image": "/assets/couple_photo/couple_photo_2.jpg", "caption": "Our second most fav pic" },
+    { "image": "/assets/couple_photo/couple_photo_3.jpg", "caption": "Our lovable moments" },
+    { "image": "/assets/couple_photo/couple_photo_4.jpg", "caption": "When you made me smile like this" },
+    { "image": "/assets/couple_photo/couple_photo_5.jpg", "caption": "Spent a Day like Life Partners" },
+    { "image": "/assets/couple_photo/couple_photo_6.jpg", "caption": "Your comforting presence" },
+    { "image": "/assets/couple_photo/couple_photo_7.jpg", "caption": "The Beach Cuddles" },
+    { "image": "/assets/couple_photo/couple_photo_8.jpg", "caption": "Recreated stuff with the same Barii" }
   ],
   "prosCons": [
-    {
-      "gif": "/src/assets/cook-bear.gif",
-      "text": "I'll cook your fav food like it's my love language 🍳"
-    },
-    {
-      "gif": "/src/assets/comfort-bear.gif", 
-      "text": "Unlimited comfort and care"
-    },
-    {
-      "gif": "/src/assets/cute-bear.gif",
-      "text": "I listen… like actually listen"
-    },
-    {
-      "gif": "/src/assets/kiss-bears.gif",
-      "text": "Unlimited hugs & kisses\n(non-negotiable 😏)"
-    },
-    {
-      "gif": "/src/assets/photo-bear.gif",
-      "text": "Your personal photographer for all the cute moments 📸"
-    },
-    {
-      "gif": "/src/assets/music-bear.gif",
-      "text": "Live singing performances… just for you 🎶😉"
-    }
+    { "gif": "/assets/cook-bear.gif", "text": "I'll cook your fav food like it's my love language 🍳" },
+    { "gif": "/assets/comfort-bear.gif", "text": "Unlimited comfort and care" },
+    { "gif": "/assets/cute-bear.gif", "text": "I listen… like actually listen" },
+    { "gif": "/assets/kiss-bears.gif", "text": "Unlimited hugs & kisses\n(non-negotiable 😏)" },
+    { "gif": "/assets/photo-bear.gif", "text": "Your personal photographer for all the cute moments 📸" },
+    { "gif": "/assets/music-bear.gif", "text": "Live singing performances… just for you 🎶😉" }
   ],
   "songs": [
-  {
-    "id": 1,
-    "title": "Evare",
-    "duration": "4:12",
-    "album": "Premam",
-    "artist": "Vijay Yesudas",
-    "cover": "/album-covers/premam.jpg",
-    "audio": "/songs/Evare.mp3"
-  },
-  {
-    "id": 2,
-    "title": "Gaaju Bomma",
-    "duration": "3:55",
-    "album": "Hi Nanna",
-    "artist": "Hesham Abdul Wahab",
-    "cover": "/album-covers/gaaju-bomma.jpg",
-    "audio": "/songs/Gaaju-Bomma.mp3"
-  },
-  {
-    "id": 3,
-    "title": "O Seliya",
-    "duration": "4:06",
-    "album": "Premikula Roju",
-    "artist": "Unnikrishnan",
-    "cover": "/album-covers/o-seliya.jpg",
-    "audio": "/songs/O-Seliya.mp3"
-  },
-  {
-    "id": 4,
-    "title": "Sundari",
-    "duration": "4:18",
-    "album": "Thalapathi",
-    "artist": "Ilaiyaraaja",
-    "cover": "/album-covers/thalapathi.jpg",
-    "audio": "/songs/Sundari.mp3"
-  },
-  {
-    "id": 5,
-    "title": "Nenu Nuvvantu",
-    "duration": "4:48",
-    "album": "Orange",
-    "artist": "Naresh Iyer",
-    "cover": "/album-covers/orange.jpg",
-    "audio": "/songs/Nenu-Nuvvantu.mp3"
-  }
+    { "id": 1, "title": "Evare", "duration": "4:12", "album": "Premam", "artist": "Vijay Yesudas", "cover": "/album-covers/premam.jpg", "audio": "/songs/Evare.mp3" },
+    { "id": 2, "title": "Gaaju Bomma", "duration": "3:55", "album": "Hi Nanna", "artist": "Hesham Abdul Wahab", "cover": "/album-covers/gaaju-bomma.jpg", "audio": "/songs/Gaaju-Bomma.mp3" },
+    { "id": 3, "title": "O Seliya", "duration": "4:06", "album": "Premikula Roju", "artist": "Unnikrishnan", "cover": "/album-covers/o-seliya.jpg", "audio": "/songs/O-Seliya.mp3" },
+    { "id": 4, "title": "Sundari", "duration": "4:18", "album": "Thalapathi", "artist": "Ilaiyaraaja", "cover": "/album-covers/thalapathi.jpg", "audio": "/songs/Sundari.mp3" },
+    { "id": 5, "title": "Nenu Nuvvantu", "duration": "4:48", "album": "Orange", "artist": "Naresh Iyer", "cover": "/album-covers/orange.jpg", "audio": "/songs/Nenu-Nuvvantu.mp3" }
   ],
   "letter": {
     "title": "My Dearest BUJJIII💗,",
@@ -174,6 +92,5 @@
     "pause": "Pause",
     "mute": "mute",
     "fastForward": "Fast Forward"
-
   }
 }
