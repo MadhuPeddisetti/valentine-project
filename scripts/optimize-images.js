@@ -1,3 +1,8 @@
+// Skip optimization during Netlify build
+if (process.env.SKIP_IMAGE_OPTIM === '1') {
+  console.log('⏭ Skipping image optimization (Netlify build)');
+  process.exit(0);
+}
 import sharp from 'sharp';
 import { promises as fs } from 'fs';
 import path from 'path';
