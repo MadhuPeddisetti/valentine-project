@@ -316,10 +316,18 @@ function App() {
                   <motion.button className="control-btn" onClick={handleNext} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} title={config.tooltips.next}>⏩</motion.button>
                 </div>
                 <div className="volume-section">
-                  <span className="volume-icon">{volume > 0.5 ? "🔊" : volume > 0 ? "🔉" : "🔇"}</span>
-                  <div className="volume-bar-container">
-                    <input type="range" className="volume-bar" min="0" max="1" step="0.1" value={volume} onChange={handleVolumeChange} />
-                  </div>
+                  <motion.button
+                    className="control-btn"
+                    onClick={() => {
+                      const newVol = volume === 0 ? 1 : volume <= 0.3 ? 0.6 : volume <= 0.6 ? 1 : 0;
+                      setVolume(newVol);
+                      if (audioRef.current) audioRef.current.volume = newVol;
+                    }}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                  >
+                    {volume > 0.5 ? "🔊" : volume > 0 ? "🔉" : "🔇"}
+                  </motion.button>
                 </div>
               </div>
             </motion.div>
