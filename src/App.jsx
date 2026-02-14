@@ -1,16 +1,3 @@
-import premamCover from './assets/album-covers/premam.jpg'
-import gaajuBommaCover from './assets/album-covers/gaaju-bomma.jpg'
-import oSeliyaCover from './assets/album-covers/o-seliya.jpg'
-import thalapathiCover from './assets/album-covers/thalapathi.jpg'
-import orangeCover from './assets/album-covers/orange.jpg'
-
-const albumCovers = {
-  '/album-covers/premam.jpg': premamCover,
-  '/album-covers/gaaju-bomma.jpg': gaajuBommaCover,
-  '/album-covers/o-seliya.jpg': oSeliyaCover,
-  '/album-covers/thalapathi.jpg': thalapathiCover,
-  '/album-covers/orange.jpg': orangeCover,
-}
 import { useState, useMemo, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { config } from "./config";
@@ -35,9 +22,7 @@ function App() {
 
   const audioRef = useRef(null);
 
-  // Song data for media player
   const songs = useMemo(() => config.songs, []);
-
   const slides = useMemo(() => config.prosCons, []);
 
   const handleNoEnter = useCallback(() => {
@@ -77,7 +62,6 @@ function App() {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   }, [slides.length]);
 
-  // Gift tracking functions
   const handleGiftClick = useCallback((giftType) => {
     setGiftsOpened((prev) => {
       const newSet = new Set(prev);
@@ -103,10 +87,9 @@ function App() {
     setView("photos");
   }, [handleGiftClick]);
 
-  // Media player functions
   const currentSong = useMemo(
     () => songs[currentSongIndex],
-    [songs, currentSongIndex],
+    [songs, currentSongIndex]
   );
 
   const formatTime = useCallback((time) => {
@@ -170,7 +153,7 @@ function App() {
         setCurrentTime(progress * duration);
       }
     },
-    [duration],
+    [duration]
   );
 
   const handleVolumeChange = useCallback((e) => {
@@ -331,7 +314,7 @@ function App() {
                 >
                   <div className="album-art">
                     <img
-                      src={albumCovers[currentSong.cover]}
+                      src={currentSong.cover}
                       alt="Album Cover"
                       loading="lazy"
                       className="album-image"
